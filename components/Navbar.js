@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="container">
             <nav className="row">
                 <div className="logo">
-                    <img src="Ababeel! (3)-1.png" alt=""/>
+                    <img src="Ababeel! (3)-1.png" alt="LOGO"/>
                         
                 </div>
 
@@ -16,6 +16,11 @@ const Navbar = () => {
                     <li><a href="#">Skills</a></li>
                     <li><a href="#">Portfolio</a></li>
                 </ul>
+                <div className="social-link">
+                <img src="Instagram.webp" alt="Soccial-link-icon"/>
+                <img src="Facebook.webp" alt="Soccial-link-icon"/>
+                <img src="Linkdin.png" alt="Soccial-link-icon"/>
+                </div>
             </nav>
 
         </div>

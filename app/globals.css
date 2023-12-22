@@ -16,6 +16,11 @@ body{
 }
 header{
   position: fixed;
+  padding: 20px 0px;
+  width: 100%;
+  background-color: #103dbb2e;
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 10px 28px #88888869;
 }
 .StarCanva{
   width: 100%;
@@ -47,11 +52,6 @@ a {
   text-decoration: none;
 }
 
-header {
-  padding: 20px 0px;
-}
-
-
 .logo {
   width: 180px;
   cursor: pointer;
@@ -69,7 +69,8 @@ nav ul {
 
 
 nav ul li {
-  padding-left: 45px;
+  padding-left: 20px;
+  padding-left: 20px;
 }
 
 nav ul li a {
@@ -83,4 +84,37 @@ nav ul li a {
 nav ul li a:hover {
   color: var(--orange);
   transform: scale(1.1);
+}
+
+.social-link img{
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+@media only screen and (max-width: 768px){
+header .row{
+  flex-direction: column;
+  gap: 15px;
+}
+header{
+  padding: 10px 0px;
+}
+.logo img {
+  width: 70%;
+  margin: auto;
+}
+.social-link{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.social-link img{
+  width: 35px;
+}
+.social-link img{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+
 }
