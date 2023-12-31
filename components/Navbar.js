@@ -13,14 +13,11 @@ const Navbar = () => {
 
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
-                <div className="social-link">
-                <img src="Instagram.webp" alt="Soccial-link-icon"/>
-                <img src="Facebook.webp" alt="Soccial-link-icon"/>
-                <img src="Linkdin.png" alt="Soccial-link-icon"/>
-                </div>
+                
             </nav>
 
         </div>
